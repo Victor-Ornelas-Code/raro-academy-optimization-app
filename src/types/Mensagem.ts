@@ -6,4 +6,5 @@ export type Mensagem = {
   autor: ParticipanteChat;
   data: Date;
   lida: boolean;
+  keyId: string;
 }

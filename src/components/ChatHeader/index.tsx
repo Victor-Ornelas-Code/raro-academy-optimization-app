@@ -3,6 +3,7 @@ import { useChat } from "../../contexts/chat.context";
 export const ChatHeader = () => {
   const chat = useChat();
   const contato = chat.participantes.find(p => !p.usuarioAtual);
+  
 
   return (
     <div className="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
